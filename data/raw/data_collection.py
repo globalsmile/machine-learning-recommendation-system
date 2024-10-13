@@ -18,8 +18,8 @@ def split_data(data):
 
 if __name__ == '__main__':
     # Example using the MovieLens dataset
-    data = load_data('data/movielens.csv')
+    data = load_data('ml-latest-small/ml-latest-small/movies.csv')
     cleaned_data = clean_data(data)
     train_data, test_data = split_data(cleaned_data)
-    train_data.to_csv('data/train_data.csv', index=False)
-    test_data.to_csv('data/test_data.csv', index=False)
+    train_data.to_csv('train_data.csv', index=False)
+    test_data.to_csv('test_data.csv', index=False)
