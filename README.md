@@ -10,8 +10,8 @@ This project involves building a machine learning recommendation system, includi
 - Evaluate and validate the model to ensure it meets performance criteria.
 - Deploy a robust and scalable model for production use.
 ### Deliverables
-- Cleaned and processed dataset.
-- Trained machine learning model.
+- Cleaned and processed dataset (can be found in data/raw/train_data.csv).
+- Trained machine learning model (can be found in models/recommedation_model.pkl).
 - Deployment-ready model.
 
 
@@ -65,6 +65,4 @@ print(f'Predicted rating for user {user_id} and item {item_id}: {prediction.est}
 - Commit your changes (git commit -m 'Add some feature').
 - Push to the branch (git push origin feature/your-feature).
 - Open a pull request.
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
